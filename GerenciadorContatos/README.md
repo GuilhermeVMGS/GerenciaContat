@@ -54,4 +54,4 @@ Ao clicar no botão "Listar Contatos", todos os contatos cadastrados serão exib
 
 ### Buscar Contato
 
-Ao clicar em "Buscar por Nome", será solicitado o nome do contato e o programa exibirá as informações do contato correspondente, se encontrado.
+Ao clicar em "Buscar por Nome/Email", será solicitado qeu escolha por qual informação deseja buscar e o programa exibirá as informações do contato correspondente, se encontrado.
