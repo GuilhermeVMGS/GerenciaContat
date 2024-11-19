@@ -2,6 +2,13 @@
 
 Este projeto é um gerenciador de contatos em Java, com uma interface gráfica desenvolvida usando a biblioteca Swing. O objetivo do projeto é permitir que o usuário adicione, liste e busque contatos, além de salvar e carregar os dados de contatos a partir de um arquivo serializado.
 
+
+## Estrutura de Dados
+
+- **HashSet<String> (em Contato):** O HashSet está sendo utilizado para armazenar os dados de cada contato. Ele é uma coleção que não permite elementos duplicados, garantindo que cada número de telefone, nome e email sejam únicos para um determinado contato. O uso do HashSet permite uma busca eficiente e rápida para verificar se um dos atributos já foi registrado.
+
+- **ArrayList<Contato> (em GerenciaContato):** A lista de contatos é armazenada em um ArrayList. Essa estrutura de dados dinâmica permite armazenar os contatos de forma sequencial, com acesso rápido a qualquer contato pela sua posição na lista. Além disso, o ArrayList é ideal para cenários em que há a necessidade de adicionar ou remover contatos de maneira eficiente, além de percorrer toda a lista para buscas, como a busca por nome ou email.
+
 ## Funcionalidades
 
 - **Adicionar Contato**: Permite que o usuário adicione um novo contato, incluindo nome, e-mail e telefones.
